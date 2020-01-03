@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>integrateNative</name>
+    </assembly>
+    <members>
+        <!-- 对于成员“T:integrateNative.Classi”忽略有格式错误的 XML 注释 -->
+        <member name="M:integrateNative.Classi.#cctor">
+            <summary internal= "true">
+            The static constructor instantiates and initializes the MATLAB Runtime instance.
+            </summary>
+        </member>
+        <member name="M:integrateNative.Classi.#ctor">
+            <summary>
+            Constructs a new instance of the Classi class.
+            </summary>
+        </member>
+        <member name="M:integrateNative.Classi.Finalize">
+            <summary internal= "true">
+            Class destructor called by the CLR garbage collector.
+            </summary>
+        </member>
+        <member name="M:integrateNative.Classi.Dispose">
+            <summary>
+            Frees the native resources associated with this object
+            </summary>
+        </member>
+        <member name="M:integrateNative.Classi.Dispose(System.Boolean)">
+            <summary internal= "true">
+            Internal dispose function
+            </summary>
+        </member>
+        <member name="M:integrateNative.Classi.integrate">
+             <summary>
+             Provides a single output, 0-input Objectinterface to the integrate MATLAB
+             function.
+             </summary>
+             <remarks>
+             </remarks>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:integrateNative.Classi.integrate(System.Object)">
+             <summary>
+             Provides a single output, 1-input Objectinterface to the integrate MATLAB
+             function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="str1">Input argument #1</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:integrateNative.Classi.integrate(System.Object,System.Object)">
+             <summary>
+             Provides a single output, 2-input Objectinterface to the integrate MATLAB
+             function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="str1">Input argument #1</param>
+             <param name="str2">Input argument #2</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:integrateNative.Classi.integrate(System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 3-input Objectinterface to the integrate MATLAB
+             function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="str1">Input argument #1</param>
+             <param name="str2">Input argument #2</param>
+             <param name="lb">Input argument #3</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:integrateNative.Classi.integrate(System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides a single output, 4-input Objectinterface to the integrate MATLAB
+             function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="str1">Input argument #1</param>
+             <param name="str2">Input argument #2</param>
+             <param name="lb">Input argument #3</param>
+             <param name="ub">Input argument #4</param>
+             <returns>An Object containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:integrateNative.Classi.integrate(System.Int32)">
+             <summary>
+             Provides the standard 0-input Object interface to the integrate MATLAB function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:integrateNative.Classi.integrate(System.Int32,System.Object)">
+             <summary>
+             Provides the standard 1-input Object interface to the integrate MATLAB function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="str1">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:integrateNative.Classi.integrate(System.Int32,System.Object,System.Object)">
+             <summary>
+             Provides the standard 2-input Object interface to the integrate MATLAB function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="str1">Input argument #1</param>
+             <param name="str2">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:integrateNative.Classi.integrate(System.Int32,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 3-input Object interface to the integrate MATLAB function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="str1">Input argument #1</param>
+             <param name="str2">Input argument #2</param>
+             <param name="lb">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:integrateNative.Classi.integrate(System.Int32,System.Object,System.Object,System.Object,System.Object)">
+             <summary>
+             Provides the standard 4-input Object interface to the integrate MATLAB function.
+             </summary>
+             <remarks>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="str1">Input argument #1</param>
+             <param name="str2">Input argument #2</param>
+             <param name="lb">Input argument #3</param>
+             <param name="ub">Input argument #4</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:integrateNative.Classi.integrate(System.Int32,System.Object[]@,System.Object[],System.Object[])">
+             <summary>
+             Provides an interface for the integrate function in which the input and output
+             arguments are specified as an array of Objects.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of Object output arguments</param>
+             <param name= "argsIn">Array of Object input arguments</param>
+             <param name= "varArgsIn">Array of Object representing variable input
+             arguments</param>
+            
+        </member>
+        <member name="M:integrateNative.Classi.WaitForFiguresToDie">
+             <summary>
+             This method will cause a MATLAB figure window to behave as a modal dialog box.
+             The method will not return until all the figure windows associated with this
+             component have been closed.
+             </summary>
+             <remarks>
+             An application should only call this method when required to keep the
+             MATLAB figure window from disappearing.  Other techniques, such as calling
+             Console.ReadLine() from the application should be considered where
+             possible.</remarks>
+            
+        </member>
+    </members>
+</doc>
